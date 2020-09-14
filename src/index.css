@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+li a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(34, 65, 167);
+  font: bold;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  padding: 6px;
+}
+
+.filmsContainer {
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px;
+  border: solid 1px rgb(131, 110, 138);
+  background-color: rgb(247, 242, 248);
+  border-radius: 5px;
+}
+
+#moreReleases {
+  width: inherit;
+  height: 25px;
+  background-color: rgb(215, 227, 241);
+  border: solid black 1px;
+  text-align: center;
+  border-radius: 6px;
+}

@@ -5,14 +5,20 @@ class FilmList extends Component{
     render() {
         const listOfFilms = this.props.films.map((film) => {
             return (
-            <Film key={film.id} name={film.name}></Film>
+                <Film name={film.name} url={film.url}></Film>
             ); 
         });
 
         return(
             <>
-            <h3>Upcoming Films:</h3>
-            {listOfFilms}
+                <h4>Upcoming Film Release for UK</h4>
+                <hr></hr>
+                {listOfFilms}
+                <hr></hr>
+                <div id="moreReleases">
+                    <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a>
+                </div>
+            
             </>
         );
     }
